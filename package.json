@@ -1,0 +1,17 @@
+{
+  "name": "meeting-iot",
+  "author": "Isabela Neri dos Santos",
+  "version": "1.0.0",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "scripts": {
+    "start": "nodemon ./scripts/server",
+    "test-client-start": "nodemon ./scripts/test-client"
+  }
+}
